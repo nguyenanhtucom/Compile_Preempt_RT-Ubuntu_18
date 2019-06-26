@@ -34,6 +34,8 @@
 
 #### sudo apt-get install libncurses-dev
 
+#### sudo apt-get install make make-guile gcc flex bison
+
 #### make menuconfig
 
   General setup ---> [Enter]
@@ -41,14 +43,6 @@
   Preemption Model (Preemption Model (Fully Preemptible Kernel (RT)) [Enter]
   
   (X) Fully Preemptible Kernel (RT) [Enter] #Select
-
-  Exit
-
-  Kernel hacking --> [Enter]
-
-  Memory Debugging [Enter]
-
-  Check for stack overflows #Already deselected - do not select
 
   Exit
 
