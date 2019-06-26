@@ -1,8 +1,8 @@
-# Step 0 - Make a working directory
+## Step 0 - Make a working directory
 
 #### mkdir ~/kernel && cd ~/kernel
 
-# Step 1 - Download kernel and patch
+## Step 1 - Download kernel and patch
 
 #### wget https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.0/patch-5.0.21-rt13.patch.gz
 
@@ -18,7 +18,7 @@
 
 #### tar -xzvf linux-5.0.21.tar.gz
 
-# Step 3 - Patch the kernel
+## Step 3 - Patch the kernel
 
 #### cd linux-5.0.21
 
@@ -28,7 +28,7 @@
 
 #### gzip -cd ../patch-5.0.21-rt13.patch.gz | patch -p1 --verbose
 
-# Step 4 - Enable realtime processing
+## Step 4 - Enable realtime processing
 
   This step requires libncurses-dev
 
@@ -54,17 +54,17 @@
 
   <Exit> [Enter]
  
- # Step 5 - Compile the kernel
+ ## Step 5 - Compile the kernel
  
  #### make -j4
  
-# Step 6 - Make modules & install
+## Step 6 - Make modules & install
  
 #### sudo make modules_install -j4
 
 #### sudo make install -j4
 
-# Step 7 - Verify and update
+## Step 7 - Verify and update
 
   Verify that initrd.img-5.0.21-rt13, vmlinuz-5.0.21-rt13, and config-5.0.21-rt13 exist. They should have been created in the previous step.
 
@@ -76,7 +76,7 @@
 
 #### sudo update-grub
 
-# Step 8 - Reboot and enjoy!
+## Step 8 - Reboot and enjoy!
 
   Reboot the computer, and when the grub menu appears during boot, select the newly created RT kernel.
 
