@@ -1,6 +1,6 @@
 # Step 0 - Make a working directory
 
-### mkdir ~/kernel && cd ~/kernel
+#### mkdir ~/kernel && cd ~/kernel
 
 # Step 1 - Download kernel and patch
 
