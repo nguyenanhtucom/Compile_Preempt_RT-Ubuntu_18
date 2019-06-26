@@ -34,7 +34,7 @@
 
 #### sudo apt-get install libncurses-dev
 
-#### sudo apt-get install make make-guile gcc flex bison
+#### sudo apt-get install make make-guile gcc flex bison libssl-dev
 
 #### make menuconfig
 
