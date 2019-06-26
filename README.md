@@ -36,11 +36,11 @@ sudo apt-get install libncurses-dev
 
 make menuconfig
 
-  Processor type and features ---> [Enter]
+  General setup ---> [Enter]
   
-  Preemption Model (Voluntary Kernel Preemption (Desktop)) [Enter]
+  Preemption Model (Preemption Model (Fully Preemptible Kernel (RT)) [Enter]
   
-  Fully Preemptible Kernel (RT) [Enter] #Select
+  (X) Fully Preemptible Kernel (RT) [Enter] #Select
 
   Exit
 
@@ -96,6 +96,6 @@ uname -a
 
   Output looks like:
 
-  Linux oliver-home 3.18.11-rt6 #1 SMP PREEMPT RT Sun Apr 12 03:32:57 EDT 2015 i686 i686 i686 GNU/Linux
+  Linux ...-home 5.0.21-rt13 #1 SMP PREEMPT RT ... GNU/Linux
 
   Note the "SMP PREEMPT RT".
