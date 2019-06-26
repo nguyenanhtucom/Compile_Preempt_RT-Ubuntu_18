@@ -16,11 +16,11 @@
 
   #f - from file
 
-#### tar -xzvf linux-3.18.11.tar.gz
+#### tar -xzvf linux-5.0.21.tar.gz
 
 # Step 3 - Patch the kernel
 
-#### cd linux-3.18.11
+#### cd linux-5.0.21
 
   #c - pipe file contents to stdout
 
